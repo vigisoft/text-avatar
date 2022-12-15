@@ -1,17 +1,15 @@
-import { Input, SimpleChanges, Component, ViewChild } from '@angular/core';
+import { Input, SimpleChanges, Component } from '@angular/core';
 import { ColorGenerator } from "./color-generator";
 
 @Component({
   selector: 'text-avatar',
-  template: `
-    <div class="u-text-avatar" [ngStyle]="styles">{{ firstLetter }}</div>
-  `,
+  template: `<div class="u-text-avatar" [ngStyle]="styles">{{ firstLetter }}</div>`,
   styleUrls: ['./text-avatar.scss']
 })
 export class TextAvatarDirective {
-  @Input() text: string;
-  @Input() color: string;
-  @Input() textColor: string;
+  @Input() text!: string;
+  @Input() color!: string;
+  @Input() textColor!: string;
   
   public firstLetter = "";
   public styles = {
