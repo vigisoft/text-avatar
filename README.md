@@ -17,7 +17,7 @@ Helper directive for **Ionic Angular 4.x** to generate circular avatar, based up
 * [Quick Preview](#quick-preview)
 
 ### Installation
-> #### Ionic CLI version 5.x
+> #### Ionic CLI version 5.x and 6.x
 > Open up ionic-cli and execute command ```ionic g c text-avatar``` and copy all files from **dist** folder to your `your -> cool-app/src/components/text-avatar/` folder.
 >
 
