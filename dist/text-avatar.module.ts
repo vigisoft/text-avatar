@@ -1,6 +1,7 @@
 import { NgModule } from "@angular/core";
-import { TextAvatarDirective } from './text-avatar';
 import { CommonModule } from '@angular/common';
+
+import { TextAvatarDirective } from './text-avatar';
 import { ColorGenerator } from './color-generator';
 
 @NgModule({
