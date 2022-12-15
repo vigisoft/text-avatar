@@ -5,8 +5,8 @@ Helper directive for **Ionic Angular 4.x** to generate circular avatar, based up
 
 ### Tested with:
 ```
-@angular/*: 7.x
-@ionic/angular: 4.1.0
+@angular/*: 15.x
+@ionic/angular: 6.x
 ```
 
 ### Outline
